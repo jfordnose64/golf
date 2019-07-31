@@ -1,12 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
 :root {
   font: 16px / 1 sans-serif;
 }
 
 html {
   height: 100%;
+  text-align:center;
 }
 
 body {
   margin: 0;
   min-height: 100%;
+  font-family:karla, sans-serif;
 }
+
+.header {
+  font-weight:900;
+  font-size:3rem;
+  border:1rem solid #613b1a;
+  color:white;
+  background-color:#613b1a;
+  padding:0;
+  margin:0;
+}
+ 
+.menu:hover {
+  cursor:pointer;
+}
+
+.menu li a {
+  text-decoration: none;
+  color:inherit;
+}
+.menu {
+  list-style: none;
+  display:flex;
+  justify-content: space-between;
+  font-size: 3rem;
+  font-weight:900;
+  margin:1rem;
+  padding:2rem;
+  text-decoration: none;
+}
+
+.menu, .header {
+  text-align:inline;
+}
+
+.sum_spr {
+  font-size:40px;
+  font-weight: 900;
+  background-image: url("https://nationalzoo.si.edu/sites/default/files/animals/americanflamingo-003.jpg");
+  border:0.0001rem solid black;
+  padding:20rem 10rem;
+  margin-left:15rem;
+  margin-right:15rem;
+  color:white;
+}
+
+.pistachio_ice {
+  width:75rem;
+  height:37rem;
+}
+
+.preview {
+  font-size:40px;
+  font-weight: 900;
+  background-image: url("https://cdn11.bigcommerce.com/s-stm8v/product_images/uploaded_images/preview-homepage.jpg");
+  border:0.0001rem solid black;
+  padding:20rem 10rem;
+  margin-left:15rem;
+  margin-right:15rem;
+  color:white;
+  background-size:110%;
+}
+
